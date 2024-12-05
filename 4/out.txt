@@ -1,0 +1,73 @@
+
+main: x= 7 y= 0
+invalid y -1
+
+main: x= 2 y= 1
+match!
+
+main: x= 9 y= 1
+invalid x 10
+
+main: x= 0 y= 2
+invalid x -1
+
+main: x= 6 y= 2
+not a match ['M', 'M', 'S', 'S']
+
+main: x= 7 y= 2
+not a match ['S', 'S', 'M', 'M']
+
+main: x= 2 y= 3
+match!
+
+main: x= 4 y= 3
+match!
+
+main: x= 2 y= 4
+not a match ['S', 'M', 'X', 'M']
+
+main: x= 4 y= 4
+not a match ['M', 'S', 'M', 'X']
+
+main: x= 7 y= 4
+not a match ['M', 'M', 'X', 'M']
+
+main: x= 2 y= 5
+not a match ['M', 'S', 'M', 'M']
+
+main: x= 7 y= 5
+not a match ['X', 'M', 'S', 'S']
+
+main: x= 9 y= 5
+invalid x 10
+
+main: x= 5 y= 6
+not a match ['M', 'X', 'M', 'S']
+
+main: x= 1 y= 7
+not a match ['S', 'S', 'M', 'M']
+
+main: x= 3 y= 7
+not a match ['S', 'S', 'M', 'M']
+
+main: x= 5 y= 7
+not a match ['S', 'S', 'M', 'M']
+
+main: x= 7 y= 7
+not a match ['S', 'S', 'M', 'M']
+
+main: x= 8 y= 7
+not a match ['X', 'S', 'M', 'M']
+
+main: x= 9 y= 7
+invalid x 10
+
+main: x= 1 y= 8
+not a match ['S', 'X', 'M', 'M']
+
+main: x= 4 y= 9
+invalid y 10
+
+main: x= 7 y= 9
+invalid y 10
+num_match= 3

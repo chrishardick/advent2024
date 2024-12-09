@@ -1,6 +1,9 @@
 #!/usr/local/bin/python3
 #==========
 # 71.py
+# 850 lines
+# about 10 operators per line
+# 2^9 possibilities per line
 #==========
 
 import sys
